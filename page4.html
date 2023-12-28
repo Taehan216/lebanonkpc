@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>My Homepage</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+        <link rel="icon" href="media/faviconChurch.png">
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <!-- Cards: https://getbootstrap.com/docs/5.3/components/card/#about -->
+        <div class="container text-center">
+            <!--Source: https://getbootstrap.com/docs/5.3/helpers/position/#responsive-sticky-top-->
+            <div id="nav-bar" class="row sticky-top">
+                <div id="logo" class="col">
+                    <a href="index.html"><img src="media/churchLogo.png" alt="church logo"></a>
+                </div>
+                <!--Source: https://getbootstrap.com/docs/5.3/components/dropdowns/#overview -->
+                <div class="col dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Menu
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="page1.html">담임목사</a></li>
+                        <li><a class="dropdown-item" href="page2.html">예배</a></li>
+                        <li><a class="dropdown-item" href="page3.html">청년부</a></li>
+                        <li><a class="dropdown-item" href="page4.html">교회의 역사</a></li>
+                    </ul>
+                </div>
+                <div id="nav-links" class="col">
+                    <ul id="links">
+                        <li>
+                            <a href="page1.html">담임목사</a>
+                        </li>
+                        <li>
+                            <a href="page2.html">예배</a>
+                        </li>
+                        <li>
+                            <a href="page3.html">청년부</a>
+                        </li>
+                        <li>
+                            <a href="page4.html">교회의 역사</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="heading-section" class="row">
+                <div id="heading" class="col">
+                    <h1>
+                        <b>교회의 역사</b>
+                    </h1>
+                    <div id="block"></div>
+                    <h2>
+                        Our History
+                    </h2>
+                </div>
+            </div>
+            
+        <div class="main-body row">
+            <div class="col horizontal-row">
+                <div class="text text-center">
+                    <h1>
+                        <b>
+                            "30여년의 지나온
+                        </b>
+                    </h1>
+                    <h1>
+                        <b>
+                            세월들이 모두 
+                        </b>
+                    </h1>
+                    <h1>
+                        <b>
+                            하나님의 은혜입니다"
+                        </b>
+                    </h1>
+
+                    <br>
+                </div>
+                <div>
+                    <img src="media/history1.jpg" class="horizontal-img" alt="Group Photo">
+                </div>
+                <div>
+                    <img src="media/history2.jpg" class="horizontal-img" alt="Group Photo">
+                </div>
+                <div>
+                    <img src="media/history3.jpg" class="horizontal-img" alt="Group Photo">
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/58cd2666c9.js" crossorigin="anonymous"></script>
+    </body>
+    <!-- Footer -->
+<footer class="text-center text-lg-start text-muted" style="background-color: rgba(0, 0, 0, 0.05);">
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="text-center">
+            <!-- Links -->
+            <br><br>
+            <h6 class="fw-bold mb-4">More Info</h6>
+            <p>
+                <i class="fas fa-home me-3"></i> 428 N Main St, West Lebanon, NH 03784
+            </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              LKPC1225@gmail.com
+            </p>
+            <p>
+                <a href="https://www.facebook.com/lebanonKPC?mibextid=rS40aB7S9Ucbxw6" target="_blank" class="me-3 text-reset" style="text-decoration: none;">
+                    <i class="fa-brands fa-facebook "></i>
+                </a>
+                @lebanonKPC
+            </p>
+            <p>
+                <a href="https://www.instagram.com/lebanonkpc?igsh=MXQwZ213MmpnMXAwMg==" target="_blank" class="me-3 text-reset" style="text-decoration: none;">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                @lebanonkpc
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <br>
+    <div class="text-center p-4">
+      <p style="font-size: small">
+        미주한인 예수교장로회 (KAPC)
+      </p>
+      <p style="font-size: small">
+        레바논 한인 장로교회 Lebanon Korean Presbyterian Church
+      </p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</html>
